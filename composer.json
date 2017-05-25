@@ -1,6 +1,10 @@
 {
 	"name": "coderchn/demo",
 	"version": "1.0.0",
-	"license": "MIT",
-	"type": "project"
+	"type": "project",
+	"autoload": {
+		"psr-4": {
+			"core\\": "core"
+		}
+	}
 }
